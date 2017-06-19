@@ -1,0 +1,204 @@
+/* Background(s) */
+
+body {
+	
+	background: white;
+
+}
+
+section {
+	min-height: 100vh;
+}
+
+
+
+/* General Text Styling */
+
+h1, h2, h3, p {
+	font-family: Gill Sans, HelveticaNeue, Helvetica, sans-serif;
+}
+
+h1 {
+	padding-bottom: 20px;	
+	font-size: 48px;
+	color: black;
+}
+
+p {
+	font-size: 18px;
+	color: black;
+}
+
+
+
+
+/* Links */
+
+a:hover, a:visited, a:link, a:active {
+	color: #111;
+	text-decoration: none;
+}
+
+.dotted-underline {
+	border-bottom: 1px dotted #999;
+}
+
+.dotted-underline:hover {
+	border-bottom: 1px solid #555;
+}
+
+
+
+/* Nav Section */
+
+.navbar {
+	opacity: 0.7;
+}
+
+.navbar {
+	float: right;
+}
+
+.navbar li {
+	text-align: right;
+	font-family: GillSans, sans-serif;
+	font-size: 18px;
+}
+
+/* Resume Section */
+
+.resume-section {
+	text-align: center;
+	padding: 22% 15% 0 15%;
+	margin: 50px auto 0 auto;
+}
+
+.name {
+	font-size: 72px; 
+	color: black;
+}
+
+.tagline, .city {
+	font-size: 40px;
+	color: black;
+}
+
+/* About Section */
+
+.about-text {
+	display: block;
+	color: black;
+}
+
+.about-text a {
+	color: #aaa;
+}
+
+.about-section h1 {
+	color: #aaa;
+}
+
+.about-photo {
+	max-height: 250px;
+	margin: auto;
+	margin-bottom: 24px;
+	border-radius: 8%;
+}
+
+.about-section {
+	padding: 15% 15% 0 15%;
+
+}
+
+/* Gallery Section */
+
+.gallery-section {
+   	text-align: center;
+	padding: 22% 15% 0 15%;
+	margin: 50px auto 0 auto; 
+}
+
+/* Sample Work Section */
+
+.sw-section {
+   	text-align: center;
+	padding: 22% 15% 0 15%;
+	margin: 50px auto 0 auto; 
+}
+
+/* Portfolio Section */
+
+.thumbnail .caption {
+	text-align: center;
+	color: #111;
+}
+
+.thumbnail .caption p {
+	color: #111;
+}
+
+.thumbnail img {
+	width: 150px;
+	height: 150px;
+	margin-top: 15px;
+}
+
+.portfolio-section {
+	padding: 12% 5% 20% 5%;
+	text-align: center;
+	
+}
+
+.project-link {
+	color: #aaa;
+}
+
+.portfolio-subheading {
+	margin-top: -20px;
+	padding-bottom: 20px;
+	color: #ccc;
+}
+
+
+/* Contact Section */
+
+.fa, .fcc-block {
+	display: block;
+	text-align: center;
+	opacity: 1;
+	color: #111;
+	text-decoration: none;
+	margin-top: 36px;
+}
+
+.fcc-logo {
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	margin: 4px auto;
+	border-radius: 20%;
+}
+
+.fa-twitter-square {
+	color: #00aced;
+}
+
+.fa-linkedin-square {
+	color: #007bb6;
+}
+
+.icon-caption {
+	color: #eee;
+	display: none;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: -20px;
+}
+
+.contact-section {
+	padding: 20% 10% 20% 10%;
+}
+
+.contact-section p {
+	padding-bottom: 20px;
+}
